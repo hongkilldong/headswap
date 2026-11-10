@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="pa_notif_title">تفعيل Headswap IM Desktop</string>
-    <string name="pa_notif_done">تم تفعيل Headswap IM Desktop</string>
+    <string name="desk_not_activated">Headswap IM Desktop غير مفعّل: افتح الإعدادات ← الوضع واضغط «تفعيل»</string>
+    <string name="pa_title">تفعيل Headswap IM</string>
+    <string name="pa_step_3">اكتب الرمز في إشعار Headswap IM.</string>
+    <string name="pa_forget_done">تم نسيان الإقران. سيطلب Headswap IM رمزًا جديدًا في المرة القادمة.</string>
+    <string name="pa_need_notif">اسمح بإشعارات Headswap IM: يُكتب رمز الإقران في أحدها. أو أدخل المنفذ والرمز يدويًا.</string>
     <string name="pa_s_wait_code">بانتظار رمز الإقران: اكتبه في إشعار Headswap IM.</string>
     <string name="pa_s_starting">جارٍ تشغيل سطح المكتب. قد يُعاد تشغيل Headswap IM.</string>
-    <string name="pa_s_pending">بانتظار تأكيد الوصول من Headswap IM بعد إعادة التشغيل…</string>
+    <string name="pa_s_pending">بانتظار تأكيد الوصول من Headswap IM بعد إعادة تشغيله…</string>
+    <string name="pa_notif_title">تفعيل Headswap IM Desktop</string>
+    <string name="pa_notif_done">تم تفعيل Headswap IM Desktop</string>
+    <string name="pa_err_no_pair_port">لم يتم العثور على نافذة الإقران. أبقِ «إقران الجهاز برمز الإقران» مفتوحة أثناء كتابة الرمز. في Android 17 اسمح لـ Headswap IM بالوصول إلى الشبكة المحلية، أو أدخل المنفذ يدويًا.</string>
+    <string name="pa_err_permission">حظر Android الاتصال بالشبكة. اسمح لـ Headswap IM بالوصول إلى الشبكة المحلية وأعد المحاولة.</string>
+    <string name="pa_err_package">تغيّر Headswap IM المثبّت. افتح التطبيق مرة أخرى وأعد المحاولة.</string>
 </resources>

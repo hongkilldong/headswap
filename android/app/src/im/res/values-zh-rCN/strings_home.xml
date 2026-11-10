@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="home_sub_unknown">Headswap IM 无法检查服务状态。请打开 Android Auto → ⋮：如果看到“停止车机服务”，说明服务正在运行；如果看到“启动车机服务”，请将其开启。</string>
+    <string name="home_sub_checking">需要几秒钟：Headswap IM 会短暂连接 Android Auto。</string>
+    <string name="mock_notif_now">Headswap IM · 现在</string>
+    <string name="mock_mic_question">允许 Headswap IM 录音吗？</string>
+    <string name="mock_usb_question">要打开 Headswap IM 来处理此 USB 配件吗？</string>
+</resources>

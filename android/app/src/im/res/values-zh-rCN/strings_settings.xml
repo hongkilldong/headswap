@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
+    <string name="set_usb_audio_title">通过 Headswap IM 播放声音</string>
+    <string name="set_usb_audio_desktop">要在桌面模式下通过 Headswap IM 播放声音，请重新激活访问权限。在此之前，声音通过蓝牙播放</string>
+    <string name="set_calls_sub">需要“电话”权限：Headswap IM 会获知来电并通知车机，通话期间音乐会静音</string>
+    <string name="eq_usb_only">仅在通过 Headswap IM 播放声音时有效；当前声音通过蓝牙播放</string>
+    <string name="eq_sum_usb_only">仅在通过 Headswap IM 播放声音时有效</string>
+    <string name="apps_warn_text">Headswap IM 不会在车辆行驶时屏蔽视频。安全由驾驶员负责：请勿在驾驶时观看视频，仅在停车时使用。</string>
     <string name="set_footer">Headswap IM %1$s</string>
+    <string name="wl_car_note">手机通过蓝牙连接到这辆车时，Headswap IM 会自动开始通过 Wi-Fi 等待连接</string>
+    <string name="wl_cw_note">如果手机保持连接在其他 Wi-Fi 上（例如在家中），Headswap IM 可以自动加入车机热点：网络仍使用您的主网络。请输入车机显示的名称和密码。</string>
 </resources>

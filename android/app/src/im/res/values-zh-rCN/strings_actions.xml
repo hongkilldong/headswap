@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="share_subject_log">Headswap IM：日志 %1$s</string>
+    <string name="share_subject_report">Headswap IM：问题报告</string>
+    <string name="share_subject_archive">Headswap IM：日志压缩包</string>
+</resources>

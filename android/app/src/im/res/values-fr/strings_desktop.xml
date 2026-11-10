@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
+    <string name="desk_not_activated">Headswap IM Desktop n\'est pas activé : ouvrez Paramètres &gt; Mode et appuyez sur Activer</string>
+    <string name="pa_title">Activer Headswap IM</string>
+    <string name="pa_step_3">Saisissez le code dans la notification Headswap IM.</string>
+    <string name="pa_forget_done">Association oubliée. La prochaine fois, Headswap IM demandera un nouveau code.</string>
+    <string name="pa_need_notif">Autorisez les notifications de Headswap IM : le code d\'association se saisit dans l\'une d\'elles. Ou saisissez le port et le code manuellement.</string>
+    <string name="pa_s_wait_code">En attente du code d\'association : saisissez-le dans la notification Headswap IM.</string>
+    <string name="pa_s_starting">Activation du bureau. Headswap IM peut redémarrer.</string>
+    <string name="pa_s_pending">En attente de la confirmation de l\'accès par Headswap IM redémarré…</string>
     <string name="pa_notif_title">Activation de Headswap IM Desktop</string>
     <string name="pa_notif_done">Headswap IM Desktop est activé</string>
-    <string name="pa_s_wait_code">En attente du code d’association : saisissez-le dans la notification Headswap IM.</string>
-    <string name="pa_s_starting">Activation du bureau. Headswap IM peut redémarrer.</string>
-    <string name="pa_s_pending">En attente de la confirmation de l’accès par Headswap IM redémarré…</string>
+    <string name="pa_err_no_pair_port">La boîte de dialogue d\'association est introuvable. Gardez « Associer l\'appareil avec un code d\'association » ouvert pendant la saisie du code. Sur Android 17, autorisez Headswap IM à accéder au réseau local, ou saisissez le port manuellement.</string>
+    <string name="pa_err_permission">Android a bloqué la connexion réseau. Autorisez Headswap IM à accéder au réseau local et réessayez.</string>
+    <string name="pa_err_package">Le Headswap IM installé a changé. Rouvrez l\'application et réessayez.</string>
 </resources>

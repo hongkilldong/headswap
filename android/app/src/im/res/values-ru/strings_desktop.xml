@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="pa_notif_title">Активация Headswap IM Desktop</string>
-    <string name="pa_notif_done">Headswap IM Desktop активирован</string>
+    <string name="desk_not_activated">Headswap IM Desktop не активирован: откройте Настройки &gt; Режим и нажмите «Активировать»</string>
+    <string name="pa_title">Активируйте Headswap IM</string>
+    <string name="pa_step_3">Введите код в уведомлении Headswap IM.</string>
+    <string name="pa_forget_done">Сопряжение забыто. В следующий раз Headswap IM попросит новый код.</string>
+    <string name="pa_need_notif">Разрешите уведомления Headswap IM: код сопряжения вводится в уведомлении. Или введите порт и код вручную.</string>
     <string name="pa_s_wait_code">Жду код сопряжения: введите его в уведомлении Headswap IM.</string>
     <string name="pa_s_starting">Включаю рабочий стол. Headswap IM может перезапуститься.</string>
-    <string name="pa_s_pending">Жду, пока перезапущенный Headswap IM подтвердит доступ:</string>
+    <string name="pa_s_pending">Жду, пока перезапущенный Headswap IM подтвердит доступ…</string>
+    <string name="pa_notif_title">Активация Headswap IM Desktop</string>
+    <string name="pa_notif_done">Headswap IM Desktop активирован</string>
+    <string name="pa_err_no_pair_port">Окно сопряжения не найдено. Не закрывайте «Подключить устройство с кодом сопряжения», пока вводите код. На Android 17 разрешите Headswap IM доступ к локальной сети или введите порт вручную.</string>
+    <string name="pa_err_permission">Android запретил сетевое подключение. Разрешите Headswap IM доступ к локальной сети и повторите.</string>
+    <string name="pa_err_package">Установленный Headswap IM изменился. Откройте приложение заново и повторите.</string>
 </resources>

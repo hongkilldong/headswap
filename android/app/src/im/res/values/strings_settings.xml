@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
+    <string name="set_usb_audio_title">Sound through Headswap IM</string>
+    <string name="set_calls_sub">Needs the “Phone” permission: Headswap IM learns about an incoming call and tells the car, music is muted for the call</string>
+    <string name="eq_usb_only">Works only with sound through Headswap IM; sound now goes over Bluetooth</string>
+    <string name="eq_sum_usb_only">Works only with sound through Headswap IM</string>
+    <string name="apps_warn_text">Headswap IM does not block video while the car is moving. The driver is responsible for safety: do not watch video while driving, use it only when parked.</string>
     <string name="set_footer">Headswap IM %1$s</string>
+    <string name="wl_car_note">When the phone connects to this car over Bluetooth, Headswap IM starts waiting for it over Wi-Fi by itself</string>
+    <string name="wl_cw_note">If the phone stays on another Wi-Fi (for example at home), Headswap IM can join the car hotspot by itself: the internet stays on your main network. Enter the name and password the head unit shows.</string>
+    <string name="bm_desktop" translatable="false">Headswap IM Desktop</string>
+    <string name="bm_launcher_own" translatable="false">Headswap IM</string>
 </resources>

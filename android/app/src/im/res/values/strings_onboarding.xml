@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="step_autostart_hint">You only need to turn it on once: the head unit server keeps running in the background, Headswap IM does not turn it off. If Android closes it on its own, turn it on again from the Android Auto settings. There is no auto-start through accessibility any more, so the head unit server has to be started by hand.</string>
+    <string-array name="step_notif_list">
+        <item>Tap “Allow” at the bottom of the screen</item>
+        <item>Tap “Allow” in the Android window “Allow Headswap IM to send you notifications?”</item>
+    </string-array>
+    <string name="step_notif_hint">The notification shade shows how the connection is going, and Android will not unload Headswap IM while the screen is off.</string>
+    <string name="step_notif_hint_launcher">The Headswap IM activation code is entered right in the notification. The notification shade also shows how the connection to the head unit is going.</string>
+    <string-array name="step_background_list">
+        <item>Tap “Remove battery limit”</item>
+        <item>Choose “No restrictions”</item>
+        <item>Go back and tap “Autostart”</item>
+        <item>Scroll to Headswap IM and turn the switch on</item>
+    </string-array>
+    <string name="step_mode_own_body">The head unit shows the Headswap IM desktop or a car launcher from the phone.</string>
+    <string name="step_mode_warn_body">This mode needs Android developer mode and Headswap IM activation through “Wireless debugging”.</string>
+    <string-array name="step_activate_list">
+        <item>Tap “Activate”, “Developer options” opens (on Xiaomi: Additional settings → Developer options)</item>
+        <item>Turn on “Wireless debugging” and tap “Pair device with pairing code”</item>
+        <item>Type the code shown into the Headswap IM notification</item>
+    </string-array>
+    <string name="step_activate_hint">Activation is lost after the phone reboots. Headswap IM will ask you to repeat it, it takes half a minute.</string>
+    <string name="step_activate_short">Headswap IM activation</string>
+</resources>

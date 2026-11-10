@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="share_subject_log">Headswap IM: лог %1$s</string>
+    <string name="share_subject_report">Headswap IM: отчёт о проблеме</string>
+    <string name="share_subject_archive">Headswap IM: архив логов</string>
+</resources>

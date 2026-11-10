@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="step_autostart_hint">يكفي تشغيله مرة واحدة: يستمر خادم شاشة السيارة بالعمل في الخلفية ولا يوقفه Headswap IM. إذا أغلقه Android من تلقاء نفسه، فشغّله مرة أخرى من إعدادات Android Auto. لم يعد هناك تشغيل تلقائي عبر تسهيل الاستخدام، لذا يجب تشغيل خادم شاشة السيارة يدويًا.</string>
+    <string-array name="step_notif_list">
+        <item>اضغط «سماح» أسفل الشاشة</item>
+        <item>اضغط «سماح» في نافذة Android «هل تسمح لـ Headswap IM بإرسال إشعارات إليك؟»</item>
+    </string-array>
+    <string name="step_notif_hint">تعرض لوحة الإشعارات سير الاتصال، ولن يُنهي Android تشغيل Headswap IM أثناء إطفاء الشاشة.</string>
+    <string name="step_notif_hint_launcher">يُدخَل رمز تفعيل Headswap IM في الإشعار مباشرةً. كما تعرض لوحة الإشعارات سير الاتصال بشاشة السيارة.</string>
+    <string-array name="step_background_list">
+        <item>اضغط «إزالة قيد البطارية»</item>
+        <item>اختر «بلا قيود»</item>
+        <item>ارجع واضغط «التشغيل التلقائي»</item>
+        <item>مرّر إلى Headswap IM وفعّل المفتاح</item>
+    </string-array>
+    <string name="step_mode_own_body">تعرض شاشة السيارة سطح مكتب Headswap IM أو مشغّل سيارة من الهاتف.</string>
+    <string name="step_mode_warn_body">يتطلب هذا الوضع وضع المطوّر في Android وتفعيل Headswap IM عبر «تصحيح الأخطاء اللاسلكي».</string>
+    <string-array name="step_activate_list">
+        <item>اضغط «تفعيل»، ستفتح «خيارات المطوّر» (في Xiaomi: إعدادات إضافية ← خيارات المطوّر)</item>
+        <item>فعّل «تصحيح الأخطاء اللاسلكي» واضغط «إقران الجهاز برمز الإقران»</item>
+        <item>اكتب الرمز الظاهر في إشعار Headswap IM</item>
+    </string-array>
+    <string name="step_activate_hint">يُفقد التفعيل بعد إعادة تشغيل الهاتف. سيطلب منك Headswap IM تكراره، ويستغرق نصف دقيقة.</string>
+    <string name="step_activate_short">تفعيل Headswap IM</string>
+</resources>
