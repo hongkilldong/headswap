@@ -20,6 +20,7 @@ import android.widget.TextView
 import android.widget.Toast
 import com.yegorkapomidorka.headswap.AppLocale
 import com.yegorkapomidorka.headswap.AppLog
+import com.yegorkapomidorka.headswap.BuildConfig
 import com.yegorkapomidorka.headswap.CarLifeState
 import com.yegorkapomidorka.headswap.R
 import com.yegorkapomidorka.headswap.ui.UiText
@@ -72,7 +73,7 @@ class UpdatePrefs(ctx: Context) {
  */
 object Updater {
     /** Выключатель на случай тестовых веток, которым публичные релизы предлагать нельзя (так было в бетах 4.0). */
-    const val ENABLED = true
+    val ENABLED = !BuildConfig.IM_BUILD
 
     enum class Step { IDLE, CHECKING, DOWNLOADING, INSTALLING }
 

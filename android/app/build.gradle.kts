@@ -11,6 +11,12 @@ val releaseProps = Properties().apply {
     if (f.exists()) f.inputStream().use { load(it) }
 }
 
+// Отдельная подпись и package для сборки, которая ставится рядом с официальным Headswap.
+val imProps = Properties().apply {
+    val f = file("${System.getProperty("user.home")}/.android-keys/headswap-im-release.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
+}
+
 android {
     namespace = "com.yegorkapomidorka.headswap"
     compileSdk = 37
@@ -23,6 +29,7 @@ android {
         versionName = "4.2.0"
         // «По воздуху» (беспровод): с 2.0.0 включён во всех сборках; выключить для проверки: gradlew assembleRelease -Pwlbeta=false
         buildConfigField("boolean", "WIRELESS_BETA", (project.findProperty("wlbeta") != "false").toString())
+        buildConfigField("boolean", "IM_BUILD", "false")
     }
 
     buildFeatures {
@@ -38,6 +45,14 @@ android {
                 storePassword = releaseProps.getProperty("storePassword")
                 keyAlias = releaseProps.getProperty("keyAlias")
                 keyPassword = releaseProps.getProperty("keyPassword")
+            }
+        }
+        if (imProps.isNotEmpty()) {
+            create("im") {
+                storeFile = file(imProps.getProperty("storeFile"))
+                storePassword = imProps.getProperty("storePassword")
+                keyAlias = imProps.getProperty("keyAlias")
+                keyPassword = imProps.getProperty("keyPassword")
             }
         }
     }
@@ -57,12 +72,24 @@ android {
             versionNameSuffix = "-smoke"
             matchingFallbacks += listOf("debug")
         }
+        // Отдельная сборка для установки рядом с официальным Headswap: свой package, имя, значок и подпись.
+        create("im") {
+            initWith(getByName("release"))
+            applicationIdSuffix = ".im"
+            versionNameSuffix = "-im"
+            signingConfig = signingConfigs.findByName("im")
+            buildConfigField("boolean", "IM_BUILD", "true")
+        }
     }
 
     sourceSets {
         // debug-транспорт для эмулятора ГУ (DebugTransport); манифест свой: exported BridgeService как в debug и без <permission> TEMPLATE_RENDERER
         getByName("smoke") {
             kotlin.srcDir("src/debug/java")
+        }
+        // im — release-подобная сборка: берём release-заглушку DebugTransport.
+        getByName("im") {
+            kotlin.srcDir("src/release/java")
         }
     }
 
