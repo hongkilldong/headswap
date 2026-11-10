@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desk_notif_title" translatable="false">Headswap IM Desktop</string>
+    <string name="pa_notif_title">Headswap IM Desktop activation</string>
+    <string name="pa_notif_done">Headswap IM Desktop is activated</string>
+    <string name="pa_s_wait_code">Waiting for the pairing code: type it into the Headswap IM notification.</string>
+    <string name="pa_s_starting">Turning the desktop on. Headswap IM may restart.</string>
+    <string name="pa_s_pending">Waiting for the restarted Headswap IM to confirm access:</string>
+</resources>

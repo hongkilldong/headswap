@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_notif_title">Activation de Headswap IM Desktop</string>
+    <string name="pa_notif_done">Headswap IM Desktop est activé</string>
+    <string name="pa_s_wait_code">En attente du code d’association : saisissez-le dans la notification Headswap IM.</string>
+    <string name="pa_s_starting">Activation du bureau. Headswap IM peut redémarrer.</string>
+    <string name="pa_s_pending">En attente de la confirmation de l’accès par Headswap IM redémarré…</string>
+</resources>

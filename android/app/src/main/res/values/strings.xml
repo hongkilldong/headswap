@@ -3,6 +3,8 @@
 <resources>
     <string name="app_name" translatable="false">Headswap</string>
     <string name="notif_channel_bridge" translatable="false">Headswap</string>
+    <!-- Name shown by Android wireless debugging when this app pairs with the phone's own adbd. -->
+    <string name="adb_client_name" translatable="false">Headswap Desktop</string>
     <string name="action_stop">Stop</string>
     <string name="action_open_aa">Open Android Auto</string>
 

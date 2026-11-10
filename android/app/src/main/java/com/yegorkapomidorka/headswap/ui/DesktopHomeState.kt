@@ -176,7 +176,7 @@ object DesktopHomeStatus {
     }.also { recoveringTexts = it }
 
     private fun desktopName(ctx: Context): String {
-        val component = DexPrefs(ctx).desktopComponent ?: return "Headswap"
+        val component = DexPrefs(ctx).desktopComponent ?: return ctx.getString(R.string.app_name)
         labelFor?.let { if (it.first == component) return it.second }
         val pkg = component.substringBefore('/')
         val label = runCatching {

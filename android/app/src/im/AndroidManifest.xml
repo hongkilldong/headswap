@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Standalone IM build: the official Headswap already declares this permission. -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <permission
-        android:name="android.car.permission.TEMPLATE_RENDERER"
-        tools:node="remove" />
-</manifest>

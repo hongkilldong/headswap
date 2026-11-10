@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_notif_title">تفعيل Headswap IM Desktop</string>
+    <string name="pa_notif_done">تم تفعيل Headswap IM Desktop</string>
+    <string name="pa_s_wait_code">بانتظار رمز الإقران: اكتبه في إشعار Headswap IM.</string>
+    <string name="pa_s_starting">جارٍ تشغيل سطح المكتب. قد يُعاد تشغيل Headswap IM.</string>
+    <string name="pa_s_pending">بانتظار تأكيد الوصول من Headswap IM بعد إعادة التشغيل…</string>
+</resources>

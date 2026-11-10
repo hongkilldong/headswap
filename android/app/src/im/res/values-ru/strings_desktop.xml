@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_notif_title">Активация Headswap IM Desktop</string>
+    <string name="pa_notif_done">Headswap IM Desktop активирован</string>
+    <string name="pa_s_wait_code">Жду код сопряжения: введите его в уведомлении Headswap IM.</string>
+    <string name="pa_s_starting">Включаю рабочий стол. Headswap IM может перезапуститься.</string>
+    <string name="pa_s_pending">Жду, пока перезапущенный Headswap IM подтвердит доступ:</string>
+</resources>

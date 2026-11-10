@@ -1,42 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Themed icon (Android 13+): same IM mark as a single-color silhouette. -->
+<!-- Themed Headswap IM icon: the original glyph plus the H+ badge, one solid color. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+    <group
+        android:pivotX="0"
+        android:pivotY="0"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:translateX="22.8"
+        android:translateY="22.8">
+        <path
+            android:pathData="M9.51 20.12A15 15 0 0 1 35.15 13.96"
+            android:strokeWidth="3.4"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M38.49 27.88A15 15 0 0 1 12.85 34.04"
+            android:strokeWidth="3.4"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M39.24 10.28 40.5 19.9 31.06 17.64z"
+            android:fillColor="#FF000000"
+            android:strokeWidth="1"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M8.76 37.72 7.5 28.1 16.94 30.36z"
+            android:fillColor="#FF000000"
+            android:strokeWidth="1"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M18.7 19.25h10.6A2.2 2.2 0 0 1 31.5 21.45v5.6a2.2 2.2 0 0 1-2.2 2.2H18.7A2.2 2.2 0 0 1 16.5 27.05v-5.6A2.2 2.2 0 0 1 18.7 19.25z"
+            android:strokeWidth="2.2"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M19.6 25.4h8.8"
+            android:strokeWidth="2"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
 
-    <path
-        android:pathData="M34,38 L34,70"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="8"
-        android:strokeLineCap="round"
-        android:fillColor="#00000000" />
-    <path
-        android:pathData="M28,38 L40,38"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="8"
-        android:strokeLineCap="round"
-        android:fillColor="#00000000" />
-    <path
-        android:pathData="M28,70 L40,70"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="8"
-        android:strokeLineCap="round"
-        android:fillColor="#00000000" />
-
-    <path
-        android:pathData="M50,70 L50,38 L60,58 L70,38 L70,70"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="8"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"
-        android:fillColor="#00000000" />
-
-    <path
-        android:pathData="M28,82 L72,82"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="4"
-        android:strokeLineCap="round"
-        android:fillColor="#00000000" />
+    <group
+        android:translateX="67"
+        android:translateY="19.5"
+        android:scaleX="0.85"
+        android:scaleY="0.85">
+        <path
+            android:pathData="M3 6 L3 18 M10 6 L10 18 M3 12 L10 12 M14 12 L22 12 M18 8 L18 16"
+            android:strokeWidth="2.4"
+            android:strokeColor="#FF000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
 </vector>

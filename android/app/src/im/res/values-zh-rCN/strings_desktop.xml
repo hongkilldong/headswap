@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pa_notif_title">Headswap IM Desktop 激活</string>
+    <string name="pa_notif_done">Headswap IM Desktop 已激活</string>
+    <string name="pa_s_wait_code">等待配对码：请在 Headswap IM 通知中输入。</string>
+    <string name="pa_s_starting">正在启动桌面。Headswap IM 可能会重启。</string>
+    <string name="pa_s_pending">等待重启后的 Headswap IM 确认访问…</string>
+</resources>

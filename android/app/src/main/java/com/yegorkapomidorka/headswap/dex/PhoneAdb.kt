@@ -10,6 +10,7 @@ import com.flyfishxu.kadb.Kadb
 import com.flyfishxu.kadb.cert.KadbCert
 import com.flyfishxu.kadb.cert.KadbPrivateKeyStore
 import com.yegorkapomidorka.headswap.AppLog
+import com.yegorkapomidorka.headswap.R
 import kotlinx.coroutines.runBlocking
 import java.security.KeyStore
 import javax.crypto.Cipher
@@ -23,7 +24,6 @@ import javax.crypto.spec.GCMParameterSpec
  * [AdbAccessException]: library messages can carry codes, keys or peer material.
  */
 internal object PhoneAdb {
-    private const val CLIENT_NAME = "Headswap Desktop"
     private var configured = false
 
     @Synchronized
@@ -65,7 +65,7 @@ internal object PhoneAdb {
             // without spending the one-shot pairing port on a probe or terminating the end-to-end TLS session.
             PairingTunnel(address, port, onConnected = { operation.stage(AdbStage.PAIR_HANDSHAKE) }).use { tunnel ->
                 try {
-                    runBlocking { Kadb.pair(LocalAddressPolicy.LOOPBACK, tunnel.port, code, CLIENT_NAME) }
+                    runBlocking { Kadb.pair(LocalAddressPolicy.LOOPBACK, tunnel.port, code, context.getString(R.string.adb_client_name)) }
                 } catch (e: Exception) {
                     // The client's SSL close is only a consequence when the target refused TCP or the deadline
                     // expired: keep the original transport failure.
