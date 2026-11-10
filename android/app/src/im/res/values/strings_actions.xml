@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="share_subject_log">Headswap IM: log %1$s</string>
-    <string name="share_subject_report">Headswap IM: problem report</string>
-    <string name="share_subject_archive">Headswap IM: log archive</string>
-</resources>

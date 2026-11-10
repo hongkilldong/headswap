@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="home_sub_unknown">تعذّر على Headswap IM فحص الخادم. في Android Auto ← ⋮: إذا ظهر «إيقاف خادم الوحدة الرئيسية» فهو يعمل، وإذا ظهر «بدء تشغيل خادم الوحدة الرئيسية» فشغّله.</string>
-    <string name="home_sub_checking">ثوانٍ قليلة: يتصل Headswap IM بـ Android Auto لفترة وجيزة.</string>
-    <string name="mock_notif_now">Headswap IM · الآن</string>
-    <string name="mock_mic_question">هل تسمح لتطبيق Headswap IM بتسجيل الصوت؟</string>
-    <string name="mock_usb_question">هل تريد فتح Headswap IM للتعامل مع ملحق USB؟</string>
-</resources>

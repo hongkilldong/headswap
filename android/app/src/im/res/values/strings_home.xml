@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="home_sub_unknown">Headswap IM could not check the server. In Android Auto → ⋮: if you see “Stop head unit server”, it is running; if you see “Start head unit server”, turn it on.</string>
-    <string name="home_sub_checking">A couple of seconds: Headswap IM briefly connects to Android Auto.</string>
-    <string name="mock_notif_now">Headswap IM · now</string>
-    <string name="mock_mic_question">Allow Headswap IM to record audio?</string>
-    <string name="mock_usb_question">Open Headswap IM to handle the USB accessory?</string>
-</resources>

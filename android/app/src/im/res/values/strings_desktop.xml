@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="desk_notif_title" translatable="false">Headswap IM Desktop</string>
-    <string name="desk_not_activated">Headswap IM Desktop is not activated: open Settings &gt; Mode and tap Activate</string>
-    <string name="pa_title">Activate Headswap IM</string>
-    <string name="pa_step_3">Type the code into the Headswap IM notification.</string>
-    <string name="pa_forget_done">Pairing forgotten. Next time Headswap IM asks for a new code.</string>
-    <string name="pa_need_notif">Allow Headswap IM notifications: the pairing code is typed into one. Or enter the port and code by hand.</string>
     <string name="pa_s_wait_code">Waiting for the pairing code: type it into the Headswap IM notification.</string>
     <string name="pa_s_starting">Turning the desktop on. Headswap IM may restart.</string>
     <string name="pa_s_pending">Waiting for the restarted Headswap IM to confirm access…</string>
     <string name="pa_notif_title">Headswap IM Desktop activation</string>
     <string name="pa_notif_done">Headswap IM Desktop is activated</string>
-    <string name="pa_err_no_pair_port">The pairing dialog is not found. Keep “Pair device with pairing code” open while you type the code. On Android 17 allow local network access for Headswap IM, or enter the port by hand.</string>
-    <string name="pa_err_permission">Android blocked the network connection. Allow Headswap IM access to the local network and try again.</string>
-    <string name="pa_err_package">The installed Headswap IM changed. Open the app again and retry.</string>
 </resources>

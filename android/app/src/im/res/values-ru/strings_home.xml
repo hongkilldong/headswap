@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="home_sub_unknown">Headswap IM не смог проверить сервер. В Android Auto → ⋮: если есть «Остановить сервер ГУ» — он запущен, если «Вкл. сервер головного устр-ва» — включите.</string>
-    <string name="home_sub_checking">Пара секунд: Headswap IM коротко подключается к Android Auto.</string>
-    <string name="mock_notif_now">Headswap IM · сейчас</string>
-    <string name="mock_mic_question">Разрешить приложению Headswap IM записывать аудио?</string>
-    <string name="mock_usb_question">Открыть «Headswap IM» для работы с USB-аксессуаром?</string>
-</resources>

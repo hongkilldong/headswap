@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="share_subject_log">Headswap IM: السجل %1$s</string>
-    <string name="share_subject_report">Headswap IM: تقرير عن مشكلة</string>
-    <string name="share_subject_archive">Headswap IM: أرشيف السجلات</string>
-</resources>

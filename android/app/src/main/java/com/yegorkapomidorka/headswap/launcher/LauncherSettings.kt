@@ -1163,7 +1163,7 @@ private fun AboutLinkCard(d: SettingsDims, modifier: Modifier) {
     val m = LocalMetrics.current
     val s = m.spec
     val label = stringResource(R.string.l_s_version)
-    val value = "${stringResource(R.string.app_name)} ${BuildConfig.VERSION_NAME} · ${stringResource(R.string.about_title)}"
+    val value = "Headswap ${BuildConfig.VERSION_NAME} · ${stringResource(R.string.about_title)}"
     Pressable(modifier.clip(RoundedCornerShape(m.dp(s.radius))).background(Pal.SURFACE), description = value,
         onTap = { LauncherModel.settingsPage = SettingsPage.ABOUT }) { pressed ->
         if (pressed) Box(Modifier.matchParentSize().background(Pal.SURFACE_PRESSED))

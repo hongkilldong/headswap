@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="home_sub_unknown">Headswap IM n\'a pas pu vérifier le serveur. Dans Android Auto → ⋮ : si vous voyez « Arrêter le serveur de l\'unité principale », il est actif ; si vous voyez « Démarrer le serveur de l\'unité principale », activez-le.</string>
-    <string name="home_sub_checking">Quelques secondes : Headswap IM se connecte brièvement à Android Auto.</string>
-    <string name="mock_notif_now">Headswap IM · maintenant</string>
-    <string name="mock_mic_question">Autoriser Headswap IM à enregistrer l\'audio ?</string>
-    <string name="mock_usb_question">Ouvrir Headswap IM pour gérer l\'accessoire USB ?</string>
-</resources>
